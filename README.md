@@ -10,10 +10,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Webpack 会把你的项目当做一个整体，通过给定的主文件（例如：index.js）开始找到你项目所有的依赖文件，并使用 loaders 去处理它们，最后打包为一个或多个浏览器可识别的 JS 文件。把你的项目当做一个整体，通过一个给定的主文件（如：index.js），Webpack 将从这个文件开始找到你的项目的所有依赖文件，使用 loaders 处理它们，最后打包为一个（或多个）浏览器可识别的 JavaScript 文件。
 
-<div align=center>
-  <img width=650 src="../images/what-is-webpack.png" alt="webpack工作方式" title="webpack工作方式">
-</div>
-
 ## 安装
 
 ```
